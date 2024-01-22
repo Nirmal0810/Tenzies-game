@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-container{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dice-container{
+  display: grid;
+  grid-template: auto / repeat(5, 1fr);
+  gap: 12px;
+}
+
+.die-face{
+  color: black;
+  border-radius: 8px;
+}
+
+.Roll-btn{
+  background-color: blueviolet;
+}
